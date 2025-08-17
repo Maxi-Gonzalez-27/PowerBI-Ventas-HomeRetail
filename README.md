@@ -34,6 +34,3 @@ Construir un **informe en Power BI Desktop** que responda a preguntas de negocio
 5. **Tendencias**: estacionalidad y evolución mensual.
 
 
-
-## 🧪 Reproducibilidad
-Estructura esperada:
