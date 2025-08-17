@@ -4,7 +4,14 @@
 > Este repositorio contiene el informe de Power BI desarrollado como trabajo obligatorio del curso Power BI potenciado por IA en el Instituto CPE
 
 ## 🎯 Objetivo
-Construir un **informe en Power BI Desktop** que responda a preguntas de negocio sobre desempeño comercial, utilizando archivos Excel por país y datos complementarios de productos y sucursales.
+- Construir un **modelo de datos en esquema estrella** a partir de archivos dispersos (Excel, TXT).  
+- Aplicar **transformaciones en Power Query** para limpiar y preparar los datos.  
+- Crear **medidas DAX** para calcular métricas clave (ingresos, unidades vendidas, ticket promedio, etc.).  
+- Desarrollar un **informe interactivo en Power BI Desktop** que permita:  
+  - Analizar ventas por país, sucursal, proveedor y categoría.  
+  - Comparar productos nacionales vs. importados.  
+  - Evaluar ingresos según tamaño de sucursales.  
+  - Identificar variaciones temporales de ventas e ingresos.  
 
 ## 📁 Fuentes de datos
 - Carpeta **Ventas** (agosto/2019 a agosto/2021): `AR.xlsx`, `CH.xlsx`, `ES.xlsx`, `PT.xlsx`, `UY.xlsx`
@@ -13,24 +20,26 @@ Construir un **informe en Power BI Desktop** que responda a preguntas de negocio
 
 > **Nota:** Los archivos se ubican en `data/`. Si no se distribuyen por licencia del curso, se deja la estructura y las instrucciones para conectarlos localmente.
 
-## 🧩 Alcance del análisis
-- Consolidación de ventas multi-país (append y normalización).
-- Enriquecimiento con **Sucursales** y **Productos**.
-- Métricas base: **Ingresos**, **Unidades**, **Tickets**, **Ticket Promedio**, **Top Productos/Países**, **Tendencia temporal**.
-- Visualizaciones por **país**, **sucursal** y **categoría**.
+## 🛠️ Recursos Utilizados  
+- **Lenguajes y herramientas**:  
+  - Power BI Desktop  
+  - Power Query  
+  - DAX  
+- **Fuentes de datos**:  
+  - Archivos Excel (ventas por país)  
+  - Archivo TXT (productos)  
+  - Archivo Excel (sucursales)  
 
-## 🔧 Transformaciones (Power Query)
-- **Combine** de archivos Excel por país (patrón de carpeta).
-- Estandarización de tipos de datos y formatos de fecha.
-- Limpieza de columnas y normalización de nombres.
-- Merge/Join con **Sucursales** y **Productos**.
-- Creación de tabla **Calendario** (para análisis temporal).
+---
 
-## 📊 Páginas del informe
-1. **Resumen**: KPIs principales y evolución general.
-2. **Ventas por País**: comparación y ranking.
-3. **Productos**: top productos, ticket promedio, mix.
-4. **Sucursales**: desempeño y contribución.
-5. **Tendencias**: estacionalidad y evolución mensual.
+## 🚀 Resultados y Aprendizajes  
+✔ Comprensión del **modelo estrella** aplicado a ventas.  
+✔ Habilidad para realizar **transformaciones en Power Query** y derivar nuevas columnas.  
+✔ Desarrollo de **medidas DAX** básicas y aplicadas a KPIs de negocio.  
+✔ Diseño de **dashboards claros y funcionales** que responden preguntas de negocio.  
+
+Este proyecto refleja la aplicación de los conocimientos adquiridos en el curso, demostrando capacidad para transformar datos dispersos en **insights accionables** mediante Power BI.  
+
+
 
 
